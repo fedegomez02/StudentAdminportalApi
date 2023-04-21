@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abcro\\source\\repos\\StudentAdminportalApi\\StudentAdminportalApi\\StudentAdminportalApi.csproj": {}
+    "C:\\Users\\abcro\\Desktop\\estudiantesSolucion\\StudentAdminportalApi\\StudentAdminportalApi\\StudentAdminportalApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abcro\\source\\repos\\StudentAdminportalApi\\StudentAdminportalApi\\StudentAdminportalApi.csproj": {
+    "C:\\Users\\abcro\\Desktop\\estudiantesSolucion\\StudentAdminportalApi\\StudentAdminportalApi\\StudentAdminportalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abcro\\source\\repos\\StudentAdminportalApi\\StudentAdminportalApi\\StudentAdminportalApi.csproj",
+        "projectUniqueName": "C:\\Users\\abcro\\Desktop\\estudiantesSolucion\\StudentAdminportalApi\\StudentAdminportalApi\\StudentAdminportalApi.csproj",
         "projectName": "StudentAdminportalApi",
-        "projectPath": "C:\\Users\\abcro\\source\\repos\\StudentAdminportalApi\\StudentAdminportalApi\\StudentAdminportalApi.csproj",
+        "projectPath": "C:\\Users\\abcro\\Desktop\\estudiantesSolucion\\StudentAdminportalApi\\StudentAdminportalApi\\StudentAdminportalApi.csproj",
         "packagesPath": "C:\\Users\\abcro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abcro\\source\\repos\\StudentAdminportalApi\\StudentAdminportalApi\\obj\\",
+        "outputPath": "C:\\Users\\abcro\\Desktop\\estudiantesSolucion\\StudentAdminportalApi\\StudentAdminportalApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,32 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
